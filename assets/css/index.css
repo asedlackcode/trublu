@@ -25,6 +25,29 @@ nav {
    
 }
 
+.projPage {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blucrewBtn {
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    border: royalblue; 
+    margin-bottom: 30px;
+}
+
+.crewPic1 {
+    width: 40%;
+    float: left;
+}
+
+.crewPic2 {
+    width: 50%;
+    float: right;
+}
+
 @media only screen and (min-width: 768px) {
     .contactPic {
       margin-left: 125px;
