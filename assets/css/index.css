@@ -45,7 +45,7 @@ html, body, * {
     margin-bottom: -164px;
 }
 .gold1 {
-    background-color: rgb(207,181,59, 0.3);
+    background-color: rgb(207,181,59, 0.9);
     padding: 10px;
     border: royalblue solid;
     border-radius: 50%;
@@ -64,6 +64,7 @@ html, body, * {
 .firstTxt {
     font-size: x-small;
     margin-top: -23px;
+    margin-left: 8px;
 }
 
 .blue {
@@ -94,7 +95,6 @@ html, body, * {
     }
     .gold1 {
         left: 20%;
-    background-color: rgb(207,181,59, .8);
     padding: 10px;
     border: royalblue solid;
     border-radius: 50%;
