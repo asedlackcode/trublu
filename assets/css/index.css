@@ -1,24 +1,28 @@
 nav {
     background-color: royalblue;
-    border-bottom: solid gold;
+    border-bottom: solid #CFB53B;
+}
+html, body, * {
+    font-family: Aclonica;
+    margin: 0px;
 }
 #white {
     /* color:unset; */
     color: white;
+    font-family: Aclonica;
 }
 #white:hover {
     /* color:unset; */
-    color: gold;
+    color: #CFB53B;
 }
 
 #togglerIcon {
-    border: gold solid;
+    border: #CFB53B solid;
 
 }
 
 .contactPic {
     
-    padding: 10px;
     
     width: 100%;
     margin-left: 0px;
@@ -37,7 +41,36 @@ nav {
     border: royalblue; 
     margin-bottom: 30px;
 }
+.mainDiv {
+    margin-bottom: -164px;
+}
+.gold1 {
+    background-color: rgb(207,181,59, 0.3);
+    padding: 10px;
+    border: royalblue solid;
+    border-radius: 50%;
+    width: 66%;
+    height: 26%;
+    top: -200px;
+    position: relative;
+    left: 17%;
 
+}
+.firstHeader {
+    text-align: center; 
+    padding-top: 5px;
+    font-size: medium;
+}
+.firstTxt {
+    font-size: x-small;
+    margin-top: -23px;
+}
+
+.blue {
+    background-color: royalblue;
+    border: #CFB53B solid;
+    height: 300px;
+}
 .crewPic1 {
     width: 40%;
     float: left;
@@ -50,7 +83,34 @@ nav {
 
 @media only screen and (min-width: 768px) {
     .contactPic {
-      margin-left: 125px;
-      width: 80%;  
+      /* margin-left: 125px; */
+      width: 100%;  
+    }
+    .blue {
+        height: 623px;
+    }
+    .mainDiv {
+        margin-bottom: 0px;
+    }
+    .gold1 {
+        left: 20%;
+    background-color: rgb(207,181,59, .8);
+    padding: 10px;
+    border: royalblue solid;
+    border-radius: 50%;
+    width: 60%;
+    height: 62%;
+    position: absolute;
+    /* top: -200px; */
+    top: 50%;
+    }
+    .firstTxt {
+        padding: 52px;
+        font-size: x-large;
+    }
+    .firstHeader {
+        text-align: center; 
+        padding-top: 5px;
+        font-size: xx-large;
     }
 }
