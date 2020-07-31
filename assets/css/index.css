@@ -83,18 +83,24 @@ html, body, * {
 }
 
 .blue {
-    background-color: royalblue;
-    border: #CFB53B solid;
+    /* background-color: royalblue; */
+    /* border: #CFB53B solid; */
     height: 300px;
+    margin-bottom: 80%;
 }
 .crewPic1 {
-    width: 40%;
-    float: left;
+    width: 68%;
+    margin-left: 20%;
 }
 
-.crewPic2 {
-    width: 50%;
-    float: right;
+.teamDesc {
+    padding-left: 10%;
+    text-align: center;
+
+}
+.custSat {
+    position: relative;
+    top: -230px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -140,6 +146,21 @@ html, body, * {
     }
     .socal {
         padding: 50px;
+        font-size: xx-large;
+    }
+    .crewPic1 {
+        margin-bottom: 30px;
+        padding-left: 13%;
+    }
+    .teamDesc {
+        font-size: x-large;
+        padding-left: 10%;
+    }
+    .blue {
+        margin-bottom: 30%;
+    }
+    .custTitle {
+        text-align: center;
         font-size: xx-large;
     }
 }
