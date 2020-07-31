@@ -91,6 +91,7 @@ html, body, * {
 .crewPic1 {
     width: 68%;
     margin-left: 20%;
+    height: 68%;
 }
 
 .teamDesc {
