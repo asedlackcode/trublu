@@ -28,6 +28,19 @@ html, body, * {
     margin-left: 0px;
    
 }
+.bigorsmallPic {
+    width: 100%;
+    margin-left: 0px;
+    position: relative;
+    top: -158px;
+
+}
+.checked {
+    color: gold;
+}
+.reviews {
+    float:right;
+}
 
 .projPage {
     text-align: center;
@@ -66,6 +79,25 @@ html, body, * {
     position: relative;
     top: -264px;
     left: 20px;
+}
+.bigorsmall {
+    background-color: rgb(207,181,59, 0.9);
+    border: royalblue solid;
+    border-radius: 40%;
+    height: 142px;
+    width: 174px;
+    position: relative;
+    top: -324px;
+    left: 16px;
+}
+.big {
+    font-size: x-large;
+    padding: 20px;
+    padding-top: 14px;
+}
+.skills {
+    position: relative;
+    top: -264px;
 }
 .socal {
     font-size: medium;
@@ -127,7 +159,8 @@ html, body, * {
     top: 50%;
     }
     .firstTxt {
-        padding: 52px;
+        padding: 56px;
+        padding-left: 46px;
         font-size: x-large;
     }
     .firstHeader {
@@ -163,5 +196,20 @@ html, body, * {
     .custTitle {
         text-align: center;
         font-size: xx-large;
+    }
+    .bigorsmall {
+        background-color: rgb(207,181,59, 0.9);
+        border: royalblue solid;
+        border-radius: 40%;
+        height: 214px;
+        width: 647px;
+        position: relative;
+        top: -619px;
+        left: 54px;
+    }
+    .big {
+        font-size: xxx-large;
+        padding: 31px;
+        padding-top: 50px;
     }
 }
