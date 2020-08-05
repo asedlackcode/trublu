@@ -12,6 +12,8 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
     <title>TruBlu Electric</title>
   </head>
   <body>
@@ -106,7 +108,16 @@
         </ul>
       </div>
     </nav>
-    
+    <main>
+      <h3>Contact the Cru</h3>
+      <form action="contactform.php" method="post">
+        <input type="text" name="name" placeholder="Full Name">
+        <input type="text" name="mail" placeholder="Your Email">
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit" name="submit">Send Message</button>
+      </form>
+    </main>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
