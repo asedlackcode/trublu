@@ -145,14 +145,14 @@ html, body, * {
     position: relative;
     top: -230px;
 }
-/* .topBtn {
+/* .topBtn 
     margin: 15px;
     margin-left: 33%;
     /* margin-right: auto; */
-    background-color: royalblue;
+    /* background-color: royalblue;
     border-radius: 10px;
     border: rgb(207,181,59) solid;
- */
+ */ 
 
 @media only screen and (min-width: 768px) {
     .contactPic {
