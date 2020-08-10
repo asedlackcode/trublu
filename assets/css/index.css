@@ -3,7 +3,7 @@ nav {
     border-bottom: solid #CFB53B;
 }
 html, body, * {
-    font-family: Aclonica;
+    /* font-family: Aclonica; */
     margin: 0px;
 }
 #thank-you-free-odd {
@@ -49,7 +49,7 @@ html, body, * {
 .projPage {
     text-align: center;
     margin-top: 10px;
-    font-family: Aclonica;
+    /* font-family: Aclonica; */
 
 }
 
@@ -59,6 +59,8 @@ html, body, * {
     color: white;
     border: royalblue; 
     margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .mainDiv {
     margin-bottom: -164px;
@@ -81,7 +83,7 @@ html, body, * {
     border-radius: 40%;
     width: 63%;
     position: relative;
-    top: -273px;
+    top: -253px;
     left: 8px;
 }
 .bigorsmall {
@@ -128,7 +130,7 @@ html, body, * {
 
 .blue {
     height: 300px;
-    margin-bottom: 80%;
+    margin-bottom: 86%;
 }
 .crewPic1 {
     width: 68%;
@@ -143,16 +145,16 @@ html, body, * {
 }
 .custSat {
     position: relative;
-    top: -230px;
+    top: -196px;
 }
-/* .topBtn 
-    margin: 15px;
-    margin-left: 33%;
-    /* margin-right: auto; */
-    /* background-color: royalblue;
-    border-radius: 10px;
-    border: rgb(207,181,59) solid;
- */ 
+.carousel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.TOPBTN {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 
 @media only screen and (min-width: 768px) {
     .contactPic {
@@ -160,7 +162,7 @@ html, body, * {
       width: 100%;  
     }
     .blue {
-        height: 623px;
+        height: 731px;
     }
     .mainDiv {
         margin-bottom: 0px;
@@ -203,7 +205,8 @@ html, body, * {
     }
     .crewPic1 {
         margin-bottom: 30px;
-        padding-left: 13%;
+        /* padding-left: 13%; */
+        margin-left: 27%;
     }
     .teamDesc {
         font-size: x-large;
