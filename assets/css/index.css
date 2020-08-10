@@ -155,6 +155,22 @@ html, body, * {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+.thankyou {
+    font-size: larger;
+    margin-bottom: 28px;
+}
+.thanks {
+    text-align: center;
+    margin-top: 47px;
+}
+.continueFromTY {
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    border: royalblue; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
 
 @media only screen and (min-width: 768px) {
     .contactPic {
